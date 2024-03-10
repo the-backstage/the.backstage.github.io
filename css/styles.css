@@ -6,7 +6,7 @@
 
 body {
 	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	background-color: #e1f7c8;
 }
 
 /* Changing the background colour for the header */
@@ -18,7 +18,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #7e86f4;
 }
 
 /* Effect on social media buttons */
@@ -41,4 +41,11 @@ footer a:hover {
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
+}
+
+.the-backstage-title {
+	color: #b47bff;
+	font-family: 'seasons', sans-serif;
+	font-size: large;
+	font-weight: bold;
 }
