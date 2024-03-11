@@ -45,11 +45,7 @@ footer a:hover {
 
 .the-backstage-title {
 	color: #b47bff;
-	@font-face {
-		font-family: Seasons;
-		src: url(Fontspring-DEMO-theseasons-bd.otf);
-		font-weight: bold;
-	  };
+	font-family: 'Times New Roman';
 	font-size: xx-large;
 	font-weight: bold;
 }
