@@ -69,9 +69,24 @@
     <!-- End of navigation bar -->
 
     <section class="container my-4">
-      <div class="border-start border-primary">
-        </div>
-    </section>
+  <div class="border-start border-primary">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <div>
+        <h2>Specific Location</h2>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="specificLocationDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          Select Location
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="specificLocationDropdown">
+          <li><a class="dropdown-item" href="#">Breda</a></li>
+          <li><a class="dropdown-item" href="#">Rotterdam</a></li>
+          <li><a class="dropdown-item" href="#">Amsterdam</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- Start of carrousel, adapted from https://getbootstrap.com/docs/5.1/components/carousel/ -->
     <section class="container-fluid p-0">
