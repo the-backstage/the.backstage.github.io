@@ -20,7 +20,7 @@
     <!-- End of Google Analytics code -->
 
   </head>
-  <body style="background-color:#e0ebf3"class="h-100 d-flex flex-column">
+  <body style="background-color:#e0ebf3" class="h-100 d-flex flex-column">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -57,10 +57,14 @@
           </ul>
           <ul class="topnav-right navbar-nav">
              <li class="nav-item">
-              <a class="nav-link" href="index.html">Chats</a>
+              <a class="nav-link" href="index.html">
+                <img src="images/chat.png" width="40" alt="chats"> 
+              </a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="index.html">Profile</a>
+              <a class="nav-link" href="index.html">
+                <img src="images/profile.webp" width="40" alt="profile"> 
+              </a>
             </li>
           </ul>
         </div>
@@ -78,42 +82,20 @@
         <div class="centered">Quote about the theatre</div>
       </div>
     <main class="h-100 d-flex flex-column justify-content-center align-items-center">
-      <div class="outterBound row">
-        <div class="insideSize col-sm-6">
-          <div id="carouselExample" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-          </div>
-        </div>
-        <div class="insideSize col-sm-6">
+      <div class="container">
+        <div class="row justify-content-between">
           <div class="col-4">
+            Get Tickets Now!
             <div id="carouselExample" class="carousel slide">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="images/musical.jpg" class="d-block w-100" alt="poster">
-                </div>
-                <div class="carousel-item">
                   <img src="images/dance.jpg" class="d-block w-100" alt="poster">
                 </div>
                 <div class="carousel-item">
                   <img src="images/theatre.jpg" class="d-block w-100" alt="poster">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/musical.jpg" class="d-block w-100" alt="poster">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -126,8 +108,33 @@
               </button>
             </div>
           </div>
+          <div class="col-4">
+            Top Monthly Reviewed
+            <div id="carouselExample2" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/homereviews1.jpg" class="d-block w-100" alt="poster">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/kidsplay.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/marlene.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
+    </main>
     <!-- End of main placeholder -->
 
   </body>
