@@ -20,6 +20,11 @@ header {
 	background-color: #7e86f4;
 }
 
+.topnav-right {
+  float: right !important;
+}
+
+
 
 /* Effect on social media buttons */
 
@@ -52,6 +57,14 @@ footer a:hover {
 }
 
 /* Home Page classes*/
+
+.containercard {
+    display: flex;
+    justify-content: space-between;
+  }
+  .columncard {
+    width: 45%; /* Adjust width as needed */
+  }
 
 .containerhomepage {
   position: relative;
