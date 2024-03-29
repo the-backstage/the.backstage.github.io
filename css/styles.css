@@ -109,6 +109,14 @@ footer a:hover {
 	color:#3d2c8f !important;
 }
 
+.titlesforcarousels {
+	font-family: bennet-banner-extra-condense, sans-serif;
+    font-style: normal;
+    font-size:xx-large;
+    font-weight: 900;
+    color:#b47bff;
+}
+
 .quotefont {
   	font-family: "bely-display", sans-serif;
 	font-weight: 400;
@@ -255,8 +263,6 @@ footer a:hover {
   transform: translateY(-5px);
 }
 
-/* Hero section styles */
-
 /* About section styles */
 .about-section {
   background-color: #e1f7c8;
@@ -278,7 +284,7 @@ footer a:hover {
 
 /* Testimonial section styles */
 .testimonial-section {
-  background-color: #ffffff;
+  background-color: #e0ebf3;
   padding: 80px 0;
 }
 
@@ -315,7 +321,7 @@ footer a:hover {
 
 /* Instagram section styles */
 .instagram-section {
-  background-color: #e1f7c8;
+  background-color:#e0ebf3;
   padding: 80px 0;
 }
 
@@ -350,20 +356,9 @@ footer a:hover {
   padding: 20px 0;
 }
 
-
-
-
-
-
-/* Chat page*/
-
-HEAD
-
-
-
 /* Meet the Crew section styles */
 .meet-the-crew-section {
-  background-color: #ffffff;
+  background-color:#5c6bc0;
   padding: 80px 0;
 }
 
@@ -371,7 +366,6 @@ HEAD
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 30px;
-  color: #5c6bc0;
 }
 
 .crew-member {
