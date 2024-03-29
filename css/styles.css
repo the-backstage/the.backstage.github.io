@@ -203,18 +203,25 @@ footer a:hover {
 }
 
 .responsive-quotefont {
-  display: none; /* Initially hide the responsive quote */
+  display: none; 
 }
 
 /* Media query for smaller screens */
 @media screen and (max-width: 1000px) {
   .quotefont {
-    display: none; /* Hide the default quote on smaller screens */
+    display: none; 
   }
   
   .responsive-quotefont {
-    display: block; /* Show the responsive quote on smaller screens */
-    font-size: 20px; /* Adjust font size for smaller screens */
+    display: block;
+    font-size: 20px; 
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .quotefont,
+  .responsive-quotefont {
+    display: none; 
   }
 }
 
