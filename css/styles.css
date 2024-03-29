@@ -732,8 +732,8 @@ ul {
 }
 
 .crew-member img {
-  width: 200px;
-  height: 200px;
+  max-width: 100%; /* Ensure image doesn't exceed its container's width */
+  height: 40%; /* Maintain aspect ratio */
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -749,4 +749,5 @@ ul {
   line-height: 1.6;
  
 }
+
 
