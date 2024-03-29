@@ -233,3 +233,115 @@ footer a:hover {
   transform: translateY(-5px);
 }
 
+/* Hero section styles */
+.hero-section {
+  background-image: url('images/hero-background.jpg');
+  background-size: cover;
+  color: #ffffff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* About section styles */
+.about-section {
+  background-color: #f8bbd0;
+  padding: 80px 0;
+  color: #ffffff;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Testimonial section styles */
+.testimonial-section {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+
+.testimonial-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #5c6bc0;
+}
+
+.testimonial-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.testimonial-avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  font-size: 18px;
+  color: #6c757d;
+}
+
+.testimonial-author {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Instagram section styles */
+.instagram-section {
+  background-color: #f8bbd0;
+  padding: 80px 0;
+}
+
+.instagram-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.instagram-feed {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.instagram-photo {
+  margin: 10px;
+}
+
+.instagram-photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* Footer styles */
+.footer-section {
+  background-color: #5c6bc0;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
