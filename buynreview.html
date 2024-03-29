@@ -93,8 +93,22 @@
               
               <div class="d-grid gap-2 col-6 mx-auto">
                 <button class="btn btn-primary" type="button">Buy Tickets</button>
-                <button class="btn btn-primary" type="button">Leave Review</button>
-              </div> 
+                <div class="dropdown">
+                  <button class="btn btn-primary dropdown-toggle col-12" type="button" id="reviewDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    Leave Review
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="reviewDropdown">
+                    <li>
+                      <form class="px-4 py-3">
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="reviewInput" placeholder="Write your review">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
                  <!-- End of Buttons -->
               <section class="play-reviews">
