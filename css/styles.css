@@ -203,18 +203,25 @@ footer a:hover {
 }
 
 .responsive-quotefont {
-  display: none; /* Initially hide the responsive quote */
+  display: none; 
 }
 
 /* Media query for smaller screens */
 @media screen and (max-width: 1000px) {
   .quotefont {
-    display: none; /* Hide the default quote on smaller screens */
+    display: none; 
   }
   
   .responsive-quotefont {
-    display: block; /* Show the responsive quote on smaller screens */
-    font-size: 20px; /* Adjust font size for smaller screens */
+    display: block;
+    font-size: 20px; 
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .quotefont,
+  .responsive-quotefont {
+    display: none; 
   }
 }
 
@@ -347,8 +354,8 @@ footer a:hover {
 }
 
 .crew-member img {
-  width: 200px;
-  height: 200px;
+  max-width: 100%; /* Ensure image doesn't exceed its container's width */
+  height: 40%; /* Maintain aspect ratio */
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -363,4 +370,5 @@ footer a:hover {
   font-size: 16px;
   line-height: 1.6;
 }
+
 
