@@ -100,7 +100,14 @@ footer a:hover {
     font-style: normal;;	
 	font-size: 30px;
 	color:#FFFFFF;
+	z-index: 2;
+	top: 100px;
+	right: 100px;
+	width: 80%;
+	display: block;
+	margin: 0 auto;
 }
+
 .containercard {
     display: flex;
     justify-content: space-between;
@@ -127,6 +134,13 @@ footer a:hover {
   border-color:#b47bff !important;
 }
 
+/*trying stuff out*/
+
+@media screen and (max-width: 768px) {
+  .quotefont {
+    font-size: 20px; /* Decrease font size for smaller screens */
+  }
+}
 
 html {
   background-color: #fefefe;
