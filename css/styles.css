@@ -118,6 +118,7 @@ footer a:hover {
     color:#b47bff;
 }
 
+
 .playtitle {
 	font-family: bennet-banner-extra-condense, sans-serif;
     font-style: normal;
@@ -181,9 +182,16 @@ footer a:hover {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal; 
-  color:;
+  color:#464444;
 }
 
+.texto3 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal; 
+  color: #e1f7c8;
+}
 
 .centered {
   position: absolute;
