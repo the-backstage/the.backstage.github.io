@@ -1,6 +1,7 @@
-/* Importing a Google Font */
+
 
  @import url("https://use.typekit.net/lpw3gtc.css");
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;1,9..40,300&display=swap');
 /* Changing the main font and background colour */
 
 body {
@@ -42,7 +43,7 @@ font-size:large;
 color:#3d2c8f !important;
 }
 
-/* trying something*/
+/* homepage image*/
 .image-resize {
   max-width: calc(100% - 80px); /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
@@ -62,7 +63,6 @@ color:#3d2c8f !important;
   position: relative;
   text-align: center; /* Center the content */
 }
-/* Effect on social media buttons */
 
 footer a:hover {
 	opacity: .5;
@@ -92,8 +92,31 @@ footer a:hover {
 	font-weight: bold;
 }
 
-/* Home Page classes*/
+/* font classes*/
 
+.titlehomepage {
+	font-family: the-seasons, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size:xx-large;
+	color:#3d2c8f !important;
+}
+
+.titlesforcarousels {
+	font-family: bennet-banner-extra-condense, sans-serif;
+    font-style: normal;
+    font-size:xx-large;
+    font-weight: 900;
+    color:#b47bff;
+}
+
+.playtitle {
+	font-family: bennet-banner-extra-condense, sans-serif;
+    font-style: normal;
+    font-size:xx-large;
+    font-weight: 900;
+    color:#3d2c8f;
+}
 .quotefont {
   	font-family: "bely-display", sans-serif;
 	font-weight: 400;
@@ -107,6 +130,14 @@ footer a:hover {
 	display: block;
 	margin: 0 auto;
 }
+
+.littletext {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal; 
+}
+/* homepage */
 
 .containercard {
     display: flex;
@@ -135,6 +166,7 @@ footer a:hover {
 }
 
 /*buynreview page*/
+
 .play-reviews {
   margin-top: 50px;
 }
@@ -206,6 +238,10 @@ footer a:hover {
   display: none; 
 }
 
+.smallest-quotefont {
+  display: none; 
+}
+
 /* Media query for smaller screens */
 @media screen and (max-width: 1000px) {
   .quotefont {
@@ -216,19 +252,39 @@ footer a:hover {
     display: block;
     font-size: 20px; 
   }
+
+  .smallest-quotefont {
+  display: none; 
+ }
+ 
 }
 
 @media screen and (max-width: 400px) {
-  .quotefont,
+  .quotefont
   .responsive-quotefont {
     display: none; 
   }
+
+  .smallest-quotefont {
+	display: block;
+    font-size: 10px; 
+  }
 }
 
-/*example.html css*/
-/* Add your custom CSS styles here */
+
+@media screen and (max-width: 190px) {
+  .quotefont  
+  .responsive-quotefont 
+    
+
+  .smallest-quotefont {
+	display: none; 
+  }
+}
+
 
 /* Styling for Values Section */
+
 .card {
   border: none;
   border-radius: 10px;
@@ -240,11 +296,9 @@ footer a:hover {
   transform: translateY(-5px);
 }
 
-/* Hero section styles */
-
 /* About section styles */
 .about-section {
-  background-color: #f8bbd0;
+  background-color: #e1f7c8;
   padding: 80px 0;
   color: #ffffff;
 }
@@ -262,8 +316,9 @@ footer a:hover {
 }
 
 /* Testimonial section styles */
+
 .testimonial-section {
-  background-color: #ffffff;
+  background-color: #e0ebf3;
   padding: 80px 0;
 }
 
@@ -300,7 +355,7 @@ footer a:hover {
 
 /* Instagram section styles */
 .instagram-section {
-  background-color: #f8bbd0;
+  background-color:#e0ebf3;
   padding: 80px 0;
 }
 
@@ -322,7 +377,7 @@ footer a:hover {
 }
 
 .instagram-photo img {
-  width: 200px;
+  width:100%;
   height: 200px;
   border-radius: 10px;
 }
@@ -335,20 +390,9 @@ footer a:hover {
   padding: 20px 0;
 }
 
-
-
-
-
-
-/* Chat page*/
-
-HEAD
-
-
-
 /* Meet the Crew section styles */
 .meet-the-crew-section {
-  background-color: #ffffff;
+  background-color:#5c6bc0;
   padding: 80px 0;
 }
 
@@ -356,7 +400,6 @@ HEAD
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 30px;
-  color: #5c6bc0;
 }
 
 .crew-member {
@@ -365,8 +408,8 @@ HEAD
 }
 
 .crew-member img {
-  max-width: 100%; /* Ensure image doesn't exceed its container's width */
-  height: 40%; /* Maintain aspect ratio */
+  max-width: 100%; 
+  height: 40%; 
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -423,7 +466,26 @@ body{margin-top:20px;}
     }
 }
 
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
 
+.review {
+  margin-left: 20px; 
+}
+
+.user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
 
 
 .users-container {
