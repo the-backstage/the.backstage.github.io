@@ -421,3 +421,46 @@ footer a:hover {
   margin-right: 10px;
 }
 
+/*profile css*/
+
+.review-container {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.review-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.review-header-container .user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.review-header-container h3 {
+  margin: 0;
+}
+
+.review-header-container .review-date {
+  font-size: 14px;
+  color: #666;
+}
+
+.review .rating {
+  /* Styles for star ratings */
+}
+
+.review-content {
+  margin-top: 0;
+}
+
+
+
