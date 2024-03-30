@@ -1,6 +1,7 @@
-/* Importing a Google Font */
+
 
  @import url("https://use.typekit.net/lpw3gtc.css");
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;1,9..40,300&display=swap');
 /* Changing the main font and background colour */
 
 body {
@@ -42,7 +43,7 @@ font-size:large;
 color:#3d2c8f !important;
 }
 
-/* trying something*/
+/* homepage image*/
 .image-resize {
   max-width: calc(100% - 80px); /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
@@ -91,7 +92,7 @@ footer a:hover {
 	font-weight: bold;
 }
 
-/* Home Page classes*/
+/* font classes*/
 
 .titlehomepage {
 	font-family: the-seasons, sans-serif;
@@ -137,6 +138,14 @@ footer a:hover {
 	display: block;
 	margin: 0 auto;
 }
+
+.littletext {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal; 
+}
+/* homepage */
 
 .containercard {
     display: flex;
@@ -236,6 +245,10 @@ footer a:hover {
   display: none; 
 }
 
+.smallest-quotefont {
+  display: none; 
+}
+
 /* Media query for smaller screens */
 @media screen and (max-width: 1000px) {
   .quotefont {
@@ -246,12 +259,24 @@ footer a:hover {
     display: block;
     font-size: 20px; 
   }
+
+  .smallest-quotefont {
+  display: none; 
+
 }
 
 @media screen and (max-width: 400px) {
-  .quotefont,
+  .quotefont  {
+    display: none; 
+  }
+
   .responsive-quotefont {
     display: none; 
+  }
+
+  .smallest-quotefont {
+	display: block;
+    font-size: 10px; 
   }
 }
 
