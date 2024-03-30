@@ -153,6 +153,22 @@ footer a:hover {
   color: white;
 }
 
+.texto {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color:#402c90; 
+}
+
+.texto1 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic; 
+}
+
+
 .centered {
   position: absolute;
   top: 50%;
@@ -256,7 +272,7 @@ footer a:hover {
   .smallest-quotefont {
   display: none; 
  }
- 
+
 }
 
 @media screen and (max-width: 400px) {
