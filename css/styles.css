@@ -117,6 +117,13 @@ footer a:hover {
     color:#b47bff;
 }
 
+.playtitle {
+	font-family: bennet-banner-extra-condense, sans-serif;
+    font-style: normal;
+    font-size:xx-large;
+    font-weight: 900;
+    color:#3d2c8f;
+}
 .quotefont {
   	font-family: "bely-display", sans-serif;
 	font-weight: 400;
