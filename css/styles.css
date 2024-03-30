@@ -229,6 +229,13 @@ footer a:hover {
   border-color:#b47bff !important;
 }
 
+.texto2branco {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal; 
+  color:#FFFFFF;
+
 /*buynreview page*/
 
 .play-reviews {
