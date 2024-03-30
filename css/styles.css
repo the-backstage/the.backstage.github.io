@@ -386,7 +386,20 @@ footer a:hover {
   }
 }
 
+/*discovery*/
+.navbar .form-control {
+  height: calc(2.375rem + 2px); /* Height of button */
+}
 
+.navbar .btn-primary {
+  height: calc(2.375rem + 2px); 
+  width: auto; 
+}
+
+.discoverycarousel img {
+  max-width: 50%; 
+  height: auto; 
+}
 /* Styling for Values Section */
 
 .card {

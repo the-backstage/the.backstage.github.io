@@ -82,14 +82,14 @@
 
     <section class="container my-4">
 
-      <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand playtitle2" href="#">Browse by</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand playtitle2" href="#">Browse by</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle texto2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Ratings
@@ -119,26 +119,25 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item texto2" href="#">Musical</a></li>
-            <li><a class="dropdown-item texto2" href="#">Theatre play</a></li>
-            <li><a class="dropdown-item texto2" href="#">Dance Performance</a>
-            </li>
-            <li><a class="dropdown-item texto2" href="#">For the Family</a>
-            </li>
-            <li><a class="dropdown-item texto2" href="#">Cabaret</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2 texto2" type="search" placeholder="Search" aria-label="Search"> 
-        <button class="purple btn btn-primary mt-3" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-</section>
+              <li><a class="dropdown-item texto2" href="#">Theatre play</a></li>
+              <li><a class="dropdown-item texto2" href="#">Dance Performance</a>
+              </li>
+              <li><a class="dropdown-item texto2" href="#">For the Family</a>
+              </li>
+              <li><a class="dropdown-item texto2" href="#">Cabaret</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+          <form class="d-flex align-items-center" role="search">
+            <input class="form-control me-2 texto2" type="search" placeholder="..." aria-label="Search">
+            <button class="purple btn btn-primary mt-0 mb-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </section>
 
-    <!-- Start of carrousel, adapted from https://getbootstrap.com/docs/5.1/components/carousel/ -->
     <section class="container-fluid p-0">
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -147,7 +146,7 @@
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active discoverycarousel">
             <img src="images/homereviews1.jpg" class="d-block mx-auto w-100" alt="...">
             <div class="carousel-caption">
               <h1 class="d-none d-md-block quotefont">Geubels Takes A Bath</h1>
@@ -156,7 +155,7 @@
               </p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item discoverycarousel">
             <img src="images/marlene.jpg" class="d-block mx-auto w-100" alt="...">
             <div class="carousel-caption">
               <h1 class="d-none d-md-block quotefont">Marlene</h1>
@@ -165,7 +164,7 @@
               </p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item discoverycarousel">
             <img src="images/bas10.webp" class="d-block mx-auto w-100" alt="...">
             <div class="carousel-caption">
               <h1 class="d-none d-md-block quotefont">Bas. 10+</h1>
