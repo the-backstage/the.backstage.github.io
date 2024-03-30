@@ -134,6 +134,14 @@ footer a:hover {
     color:#3d2c8f;
 }
 
+.playtitle3 {
+	font-family: bennet-banner-extra-condense, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color:#3d2c8f;
+    font-size:20px;
+}
+
 .quotefont {
   	font-family: "bely-display", sans-serif;
 	font-weight: 400;
@@ -333,7 +341,10 @@ footer a:hover {
 }
 
 @media screen and (max-width: 400px) {
-  .quotefont
+  .quotefont {
+    display: none; 
+  }
+
   .responsive-quotefont {
     display: none; 
   }
@@ -346,10 +357,14 @@ footer a:hover {
 
 
 @media screen and (max-width: 190px) {
-  .quotefont  
-  .responsive-quotefont 
+  .quotefont  {
+    display: none; 
+  }
+  
+  .responsive-quotefont {
+    display: none; 
+  }
     
-
   .smallest-quotefont {
 	display: none; 
   }
