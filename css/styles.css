@@ -854,3 +854,50 @@ ul {
     margin-bottom: 2rem;
     box-shadow: none;
 }
+
+/*profile styles*/
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Style for edit profile text */
+.edit-profile {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style for profile info layout */
+.profile-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Style for left column */
+.profile-left {
+    flex: 1;
+    text-align: center;
+}
+
+/* Style for right column */
+.profile-right {
+    flex: 2;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* Style for bio title */
+.profile-right h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for bio description */
+.description p {
+    font-size: 16px;
+    line-height: 1.5;
+}
