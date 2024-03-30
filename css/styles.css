@@ -142,6 +142,14 @@ footer a:hover {
     font-size:20px;
 }
 
+.playtitle4 {
+	font-family: bennet-banner-extra-condense, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color:#3d2c8f;
+    font-size:30px;
+}
+
 .quotefont {
   	font-family: "bely-display", sans-serif;
 	font-weight: 400;
@@ -360,7 +368,7 @@ footer a:hover {
   .quotefont  {
     display: none; 
   }
-  
+
   .responsive-quotefont {
     display: none; 
   }
@@ -895,17 +903,16 @@ ul {
 /* Style for left column */
 .profile-left {
     flex: 1;
-    text-align: center;
+    text-align: left;
 }
 
-/* Style for right column */
+
 .profile-right {
     flex: 2;
     text-align: left;
     padding-left: 20px;
 }
 
-/* Style for bio title */
 .profile-right h2 {
     font-size: 24px;
     margin-bottom: 10px;
