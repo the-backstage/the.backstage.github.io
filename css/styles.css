@@ -126,6 +126,14 @@ footer a:hover {
     font-weight: 900;
     color:#3d2c8f;
 }
+
+.playtitle2 {
+	font-family: bennet-banner-extra-condense, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color:#3d2c8f;
+}
+
 .quotefont {
   	font-family: "bely-display", sans-serif;
 	font-weight: 400;
@@ -143,8 +151,9 @@ footer a:hover {
 .programmestitles {
   	font-family: "bely-display", sans-serif;
 	font-weight: 200;
-    font-style: normal;;	
+    font-style: normal;	
 	font-size: 30px;
+	color:#3d2c8f;
 
 }
 .littletext {
