@@ -280,10 +280,24 @@ footer a:hover {
   }
 }
 
-/*example.html css*/
-/* Add your custom CSS styles here */
+
+@media screen and (max-width: 190px) {
+  .quotefont  {
+    display: none; 
+  }
+
+  .responsive-quotefont {
+    display: none; 
+  }
+
+  .smallest-quotefont {
+	display: none; 
+  }
+}
+
 
 /* Styling for Values Section */
+
 .card {
   border: none;
   border-radius: 10px;
