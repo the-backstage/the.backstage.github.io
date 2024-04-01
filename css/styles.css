@@ -762,6 +762,12 @@ body{margin-top:20px;}
     border-radius: 30px;
 }
 
+.footer {
+  padding: 20px 0;
+  margin-top: auto;
+}
+
+
 .chat-container li .chat-avatar {
     margin-right: 20px;
 }
