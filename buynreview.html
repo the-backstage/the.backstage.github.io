@@ -92,10 +92,8 @@
               <!-- Buttons -->
               
               <div class="d-grid gap-2 col-6 mx-auto littletext">
-                <a href="https://www.chasse.nl/nl/programma/6946/philippe-geubels/geubels-gaat-in-bad">
-                  <button class="btn col-12 btn-primary purple" type="button">Buy Tickets</button>
-                </a>
-                <div class="dropdown">
+                <button class="btn col-12 btn-primary purple" onclick="window.location.href='https://www.chasse.nl/nl/programma/6946/philippe-geubels/geubels-gaat-in-bad';" type="button">Buy Tickets</button>
+              <div class="dropdown">
                   <button class="btn btn-primary dropdown-toggle col-12 purple" type="button" id="reviewDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                     Leave Review
                   </button>
@@ -105,9 +103,7 @@
                         <div class="mb-3">
                           <input type="text" class="form-control" id="reviewInput" placeholder="Write your review">
                         </div>
-                        <a href="login.html">
-                          <button type="button" class="btn btn-primary purple">Submit</button>
-                        </a>
+                          <button type="button" onclick="window.location.href='login.html';"class="btn btn-primary purple">Submit</button>
                       </form>
                     </li>
                   </ul>
@@ -175,34 +171,25 @@
                         <span class="likes">18 likes</span>
                         <span class="comments">7 comments</span>
                     </div>
-                </div>
-                <!-- Add more reviews as needed -->
-            </div>
-        </section>
-
-        <div class="d-grid gap-2 col-6 mx-auto littletext">
-            <a href="reviews.html">
-                <button class="btn btn-primary col-12 purple" type="button">Load More Reviews</button>
-            </a>
-        </div>
-
-
-                <!-- End of reviews  -->
-
+                  </div>
+                  <!-- Add more reviews as needed -->
               </div>
-            </div>
+          </section>
+          <div class="d-grid gap-2 col-6 mx-auto littletext">
+            <button class="btn btn-primary col-12 purple" onclick="window.location.href='reviews.html';" type="button">Load More Reviews</button>
           </div>
         </div>
+       </div>
       </div>
+    </div>
 
       <!-- End of Review card  -->
 
     
-        <div class="border-start border-primary ">
-        </div>
-      </section>
+    <div class="border-start border-primary ">
+    </div>
 
-<footer class="footer-section">
+    <footer class="footer-section">
       <div class="container littletext">
         <p>&copy; 2024 The Backstage. All rights reserved.</p>
       </div>
@@ -210,5 +197,5 @@
     
  <!-- End of New Discovery page  -->
 
-</body>
+  </body>
 </html>
