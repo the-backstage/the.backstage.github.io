@@ -1,5 +1,4 @@
 
-
  @import url("https://use.typekit.net/lpw3gtc.css");
  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;1,9..40,300&display=swap');
 /* Changing the main font and background colour */
@@ -134,6 +133,22 @@ footer a:hover {
     color:#3d2c8f;
 }
 
+.playtitle3 {
+	font-family: bennet-banner-extra-condense, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color:#3d2c8f;
+    font-size:20px;
+}
+
+.playtitle4 {
+	font-family: bennet-banner-extra-condense, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color:#3d2c8f;
+    font-size:30px;
+}
+
 .quotefont {
   	font-family: "bely-display", sans-serif;
 	font-weight: 400;
@@ -158,7 +173,6 @@ footer a:hover {
 }
 .littletext {
   font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal; 
 }
@@ -180,7 +194,6 @@ footer a:hover {
 
 .texto {
   font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
   color:#402c90; 
@@ -188,14 +201,12 @@ footer a:hover {
 
 .texto1 {
   font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: italic; 
 }
 
 .texto2 {
   font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal; 
   color:#464444;
@@ -203,7 +214,6 @@ footer a:hover {
 
 .texto3 {
   font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal; 
   color: #e1f7c8;
@@ -219,6 +229,13 @@ footer a:hover {
 .purple {
   background-color:#b47bff !important ;
   border-color:#b47bff !important;
+}
+
+.texto2branco {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal; 
+  color:#FFFFFF; 
 }
 
 /*buynreview page*/
@@ -333,7 +350,10 @@ footer a:hover {
 }
 
 @media screen and (max-width: 400px) {
-  .quotefont
+  .quotefont {
+    display: none; 
+  }
+
   .responsive-quotefont {
     display: none; 
   }
@@ -346,16 +366,33 @@ footer a:hover {
 
 
 @media screen and (max-width: 190px) {
-  .quotefont  
-  .responsive-quotefont 
-    
+  .quotefont  {
+    display: none; 
+  }
 
+  .responsive-quotefont {
+    display: none; 
+  }
+    
   .smallest-quotefont {
 	display: none; 
   }
 }
 
+/*discovery*/
+.navbar .form-control {
+  height: calc(2.375rem + 2px); /* Height of button */
+}
 
+.navbar .btn-primary {
+  height: calc(2.375rem + 2px); 
+  width: auto; 
+}
+
+.discoverycarousel img {
+  max-width: 50%; 
+  height: auto; 
+}
 /* Styling for Values Section */
 
 .card {
@@ -546,12 +583,15 @@ body{margin-top:20px;}
     -moz-border-radius: 0 2px 2px 0;
     border-radius: 0 2px 2px 0;
     margin: 0;
+    background-color:#e1f7c8;
+    border-color:#e1f7c8;;
 }
 
 .chat-search-box .input-group .input-group-btn .btn i {
     font-size: 1.2rem;
     line-height: 100%;
     vertical-align: middle;
+    background-color:#e1f7c8;
 }
 
 @media (max-width: 767px) {
@@ -588,21 +628,11 @@ body{margin-top:20px;}
 .users .person:hover {
     background-color: #ffffff;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#e9eff5), to(#ffffff));
-    background-image: -webkit-linear-gradient(right, #e9eff5, #ffffff);
-    background-image: -moz-linear-gradient(right, #e9eff5, #ffffff);
-    background-image: -ms-linear-gradient(right, #e9eff5, #ffffff);
-    background-image: -o-linear-gradient(right, #e9eff5, #ffffff);
-    background-image: linear-gradient(right, #e9eff5, #ffffff);
 }
 
 .users .person.active-user {
     background-color: #ffffff;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f9fb), to(#ffffff));
-    background-image: -webkit-linear-gradient(right, #f7f9fb, #ffffff);
-    background-image: -moz-linear-gradient(right, #f7f9fb, #ffffff);
-    background-image: -ms-linear-gradient(right, #f7f9fb, #ffffff);
-    background-image: -o-linear-gradient(right, #f7f9fb, #ffffff);
-    background-image: linear-gradient(right, #f7f9fb, #ffffff);
+
 }
 
 .users .person:last-child {
@@ -717,6 +747,12 @@ body{margin-top:20px;}
     -moz-border-radius: 30px;
     border-radius: 30px;
 }
+
+.footer {
+  padding: 20px 0;
+  margin-top: auto;
+}
+
 
 .chat-container li .chat-avatar {
     margin-right: 20px;
@@ -854,3 +890,62 @@ ul {
     margin-bottom: 2rem;
     box-shadow: none;
 }
+
+/*profile styles*/
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Style for edit profile text */
+.edit-profile {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style for profile info layout */
+.profile-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Style for left column */
+.profile-left {
+    flex: 1;
+    text-align: left;
+}
+
+
+.profile-right {
+    flex: 2;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.profile-right h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for bio description */
+.description p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.plusbutton {
+	background-color:#3d2c8f;
+	border-color:#3d2c8f;
+
+}
+
+.plusbutton:hover{
+	background-color:#b47bff;
+	border-color:#b47bff;
+
+}
+
