@@ -8,13 +8,11 @@ body {
 	background-color: #e0ebf3;
 }
 
-/* Changing the background colour for the header */
 
 header {
 	background-color: #000060;
 }
 
-/* Changing the background color for the navigation bar */
 
 .navbar {
 	background-color: #b47bff ;
@@ -379,9 +377,9 @@ footer a:hover {
   }
 }
 
-/*discovery*/
+/* discovery */
 .navbar .form-control {
-  height: calc(2.375rem + 2px); /* Height of button */
+  height: calc(2.375rem + 2px); 
 }
 
 .navbar .btn-primary {
@@ -393,7 +391,7 @@ footer a:hover {
   max-width: 50%; 
   height: auto; 
 }
-/* Styling for Values Section */
+
 
 .card {
   border: none;
@@ -406,7 +404,7 @@ footer a:hover {
   transform: translateY(-5px);
 }
 
-/* About section styles */
+
 .about-section {
   background-color: #e1f7c8;
   padding: 80px 0;
@@ -425,7 +423,6 @@ footer a:hover {
   margin-bottom: 20px;
 }
 
-/* Testimonial section styles */
 
 .testimonial-section {
   background-color: #e0ebf3;
@@ -492,7 +489,6 @@ footer a:hover {
   border-radius: 10px;
 }
 
-/* Footer styles */
 .footer-section {
   background-color: #5c6bc0;
   color: #ffffff;
@@ -500,7 +496,7 @@ footer a:hover {
   padding: 20px 0;
 }
 
-/* Meet the Crew section styles */
+
 .meet-the-crew-section {
   background-color:#5c6bc0;
   padding: 80px 0;
@@ -891,7 +887,7 @@ ul {
     box-shadow: none;
 }
 
-/*profile styles*/
+/* profile */
 
 .profile-photo {
     width: 200px;
@@ -900,20 +896,19 @@ ul {
     margin-bottom: 20px;
 }
 
-/* Style for edit profile text */
+
 .edit-profile {
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-/* Style for profile info layout */
 .profile-info {
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
 
-/* Style for left column */
+
 .profile-left {
     flex: 1;
     text-align: left;
@@ -931,7 +926,7 @@ ul {
     margin-bottom: 10px;
 }
 
-/* Style for bio description */
+
 .description p {
     font-size: 16px;
     line-height: 1.5;
